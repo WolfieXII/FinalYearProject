@@ -75,7 +75,7 @@ public class RollerAgent : Agent
         BlueKey.transform.localPosition = new Vector3(Random.Range(-1f, 1f), 0.5f, 4f);
         GreenKey.transform.localPosition = new Vector3(Random.Range(-7f, -5f), 0.5f, -8f);
 
-        //Logic for randomly selecting the door that will hold the goal behind it.
+        //Logic for selecting the door that will hold the goal behind it.
         goalDoorType = KeyType.Red;
         Debug.Log($"The goal is behind: {goalDoorType} door");
 
